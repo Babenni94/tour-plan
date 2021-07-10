@@ -512,7 +512,7 @@ template {
 
 @media (max-width: 768px) {
   .container {
-    width: 92%;
+    width: 90%;
   }
   .navbar-menu__link {
     margin-right: 25px;
@@ -527,12 +527,16 @@ template {
   }
 }
 
-@media (max-width: 576px) {
-  .logo {
-    width: 99px;
-  }
-  .navbar__search, .navbar-menu, .navbar__user {
+@media screen and (max-width: 767px) {
+  .navbar-bottom {
     display: none;
+  }
+  .navbar__search, .navbar__menu, .navbar__user {
+    display: none;
+  }
+  .navbar-top {
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
   .menu-button {
     display: -webkit-box;
@@ -554,20 +558,6 @@ template {
     border: none;
     background-color: #fff;
     cursor: pointer;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar-top {
-    height: 70px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-  }
-}
-
-@media (max-width: 320px) {
-  .container {
-    max-width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
