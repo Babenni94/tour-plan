@@ -23,13 +23,7 @@
        max-width: 340px
 @media (max-width: 768px)
   .container
-    width: 90%
-  .navbar
-    &-menu
-      &__link
-        margin-right: 25px
-    &__search
-      
+    width: 88%
   .menu
     &-button
       display: none
@@ -39,13 +33,18 @@
         background-color: $text-color
 @media screen and (max-width: 767px) 
   .navbar
+    &-menu
+      &__item
+        margin: 0
     &-bottom
       display: none
     &__search, &__menu, &__user
       display: none
     &-top
-      padding-top: 28px
-      padding-bottom: 28px
+      padding-top: 26px
+      padding-bottom: 26px
+  .logo
+    width: 99px
   .menu
     &-button
       display: flex
