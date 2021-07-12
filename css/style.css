@@ -555,9 +555,11 @@ template {
 .hotel-description {
   font-size: 12px;
   line-height: 15px;
+  margin: 0;
 }
 
 .stars {
+  min-height: 8px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -625,7 +627,7 @@ template {
 
 @media (max-width: 768px) {
   .container {
-    width: 88%;
+    width: 89%;
   }
   .menu-button {
     display: none;
