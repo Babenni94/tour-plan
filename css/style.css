@@ -973,13 +973,20 @@ template {
     cursor: pointer;
   }
   .slider {
-    min-height: 250px;
+    height: 300px;
   }
   .booking {
     width: 100%;
   }
   .map {
     width: 100%;
+  }
+  .hotel-info__offer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .hotel-info__text {
+    margin-bottom: 18px;
   }
   .hotel-right {
     -webkit-box-orient: vertical;
@@ -995,6 +1002,24 @@ template {
     height: 250px;
   }
   .hotel__slider {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hotel-grid {
+    padding-top: 18px;
+  }
+  .slider {
+    height: 180px;
+    margin-bottom: 20px;
+  }
+  .map {
+    height: 172px;
+    margin-bottom: 40px;
+  }
+  .booking {
+    height: 210px;
     margin-bottom: 20px;
   }
 }
